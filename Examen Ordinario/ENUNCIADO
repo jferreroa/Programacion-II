@@ -1,0 +1,12 @@
+Se desea crear un tipo de dato Data capaz de albergar una clave y un valor. La clave será siempre una
+cadena de texto, mientras que el valor debería poder albergar cualquier tipo de dato.
+Utilizando Data se quiere construir un programa que asocie una clave identificativa con los datos de una
+persona. Las personas deben contener la siguiente información: Nombre, Año de nacimiento y Teléfono
+de contacto.
+Por ejemplo, un tipo Data podría asociar a la clave “96001” a una Persona de nombre Manuel.
+
+"96001":{
+nombre:"Manuel",
+nacimiento:1978,
+telefono:4343324
+}
