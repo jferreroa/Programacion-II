@@ -10,3 +10,20 @@ nombre:"Manuel",
 nacimiento:1978,
 telefono:4343324
 }
+De este modo se podrá construir un listado de personas asociadas a su identificativo (clave). Un ejemplo
+de listado podría ser:
+[{"96001":{
+nombre:"Manuel",
+nacimiento:1978,
+telefono:4343324
+}},
+{"96002":{
+nombre:"María",
+nacimiento:1979,
+telefono:43433422
+}},
+{"96003":{
+nombre:"Ruy",
+nacimiento:1976,
+telefono:43433212
+}}]
