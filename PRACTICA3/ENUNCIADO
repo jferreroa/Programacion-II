@@ -1,0 +1,8 @@
+1.Crear una clase Pair que admita una clave y un valor. Los tipos de la clave y el valor estarán templatizados.
+2.Crear una clase templatizada Data que contenga un vector de Pair.
+3.Crear una clase templatizada DB que contenga un vector de punteros a Data.
+Realizar las siguientes funciones miembro de la clase DB
+find() -> devuelve el puntero al primer Data que contenga el criterio de búsqueda.
+filter() -> devuelve una variable de tipo DB con los punteros a Data que cumplan el criterior de búsqueda.
+forEach() -> recorre todos los elementos Data de DB realizando alguna operación sobre ellos.
+4.Sobrecargar el operador << para Pair, Data y DB, de modo que se puedan mostrar por pantalla usando std::cout << var.
