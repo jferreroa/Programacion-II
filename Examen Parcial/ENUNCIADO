@@ -1,0 +1,20 @@
+
+Se desea realizar una clase templatizada Lista. Esta clase debe permitir tener listas de cualquier tipo de
+elementos (es decir, vamos a hacer una clase Lista que hace lo mismo que std::vector)
+
+La clase Lista debe tener las siguientes funciones:
+  ● push_back: para añadir un nuevo elemento.
+  ● forEach: para realizar una operación sobre cada uno de los elementos de la Lista sin
+  modificarlos a través de una función lambda. La función lambda debe recibir el elemento y su
+  índice en la lista.
+  ● find: para buscar la primera coincidencia según un criterio de búsqueda pasado a través de una
+  función lambda. La función lambda debe recibir el elemento y su índice en la lista. Si no
+  encuentra ninguna coincidencia lanzará una excepción.
+  ● filter: para buscar todas las coincidencias según un criterio de búsqueda pasado a través de una
+  función lambda (devuelve una Lista). La función lambda debe recibir el elemento y su índice en
+  la lista.
+  ● map: para aplicar una transformación a todos los elementos a través de una función lambda
+  (devuelve una Lista). La función lambda debe recibir el elemento y su índice en la lista.
+
+-Además se debe sobrecargar el operador << para poder mostrar por pantalla todos los elementos de la
+lista a través de un cout.
