@@ -57,17 +57,18 @@ int main(){
 
         }else {
             int b;
-            std::cout << "Do you want to exit or print the vector?\n";
-            std::cout << "1.Exit\n2.Print Vector\n";
+            std::cout << "Do you want to exit and print the vector?\n";
+            std::cout << "1.Yes\n2.No\n";
             std::cin>> b;
-            switch (b) {
-            case 1: return 0;
-            case 2:
+            if(b == 1) {
                 for(auto elem: vec){
                     elem->print();
                     elem->drawFigure();
                 }
-                break;
+
+                return 0;
+            }else {
+                std::cout << std::endl;
             }
 
         }
