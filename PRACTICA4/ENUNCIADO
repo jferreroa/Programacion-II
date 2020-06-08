@@ -1,0 +1,18 @@
+Crear las siguientes clases:
+
+Circulo
+Cuadrado
+TrianguloEquilatero
+
+Las tres clases deben heredar de una clase Figura. 
+Esta clase debe incorporar todos los metodos y variables miembro comunes a las tres figuras geométricas.
+
+Añadir las siguientes funciones miembro (en las clases que tenga sentido)
+
+calcularArea
+calcularPerimetro
+calcularDiagonal
+calcularAltura
+dibujarFigura
+
+Aquellas funciones que sean comunes a las tres clases declararlas en la clase padre.
